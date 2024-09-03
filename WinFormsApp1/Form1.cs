@@ -14,8 +14,7 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lblStatus.Text = "Hello world";
-
+            lblStatus.Text = "Hello world (CHANGED2)";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -31,6 +30,7 @@ namespace WinFormsApp1
         private void btnclose_Click(object sender, EventArgs e)
         {
             this.Close();
+            //THIS IS A CHANGE
         }
     }
 }
